@@ -8,5 +8,5 @@ test:
 lint:
 	gofmt -w -s .
 
-module: limobase 
+module.tgz: limobase 
 	tar czf module.tgz limobase
