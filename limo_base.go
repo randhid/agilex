@@ -23,7 +23,7 @@ import (
 	rdkutils "go.viam.com/rdk/utils"
 )
 
-var Model = resource.ModelNamespace("viam-labs").WithFamily("base").WithModel("agilex-limo")
+var Model = resource.ModelNamespace("viam").WithFamily("base").WithModel("agilex-limo")
 
 const (
 	defaultSerialPath = "/dev/ttyTHS1"
