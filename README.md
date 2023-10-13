@@ -29,3 +29,6 @@ Example:
   "drive_mode": "differential"
 }
 ```
+## License
+Copyright 2021-2023 Viam Inc. <br>
+Apache 2.0
