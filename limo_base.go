@@ -95,7 +95,7 @@ type limoBase struct {
 type Config struct {
 	resource.TriviallyValidateConfig
 	DriveMode    string `json:"drive_mode"`
-	SerialDevice string `json:"serial_path"` // path to /dev/ttyXXXX file
+	SerialDevice string `json:"serial_path,omitempty"`
 
 	// TestChan is a fake "serial" path for test use only
 	TestChan chan []uint8 `json:"-"`
