@@ -9,12 +9,13 @@ Documentation: https://docs.viam.com/components/base/agilex-limo/
 The module is avaiable for configuration and use via the Viam Registry at https://app.viam.com/module/viam/agilex-limo.
 
 For local development, this module is written in Go.
-To build: `make limobase`
+
+To build: `make limobase`<br>
 To test: `make test`
 
 ## Configuration
 
-```json
+```javascript
 {
   "drive_mode": "", //Required. valid values are "differential", "ackermann", or "omni"
   "serial_path": "" //Optional. serial path for communication. Defaults to "/dev/ttyTHS1"
@@ -23,7 +24,7 @@ To test: `make test`
 
 Example:
 
-```json
+```javascript
 {
   "drive_mode": "differential"
 }
