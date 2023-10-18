@@ -1,6 +1,6 @@
 # AgileX LIMO Driver
 
-This module implements the base driver for the [AgileX LIMO](https://global.agilex.ai/products/limo) base to be used with [`viam-server`](https://docs.viam.com/). This driver supports differential, ackermann, and omni directional steering modes over the serial port.
+This module implements the base driver for the [AgileX LIMO](https://global.agilex.ai/education/4) base to be used with [`viam-server`](https://docs.viam.com/). This driver supports differential, ackermann, and omni directional steering modes over the serial port.
 
 ## Build and Run
 
