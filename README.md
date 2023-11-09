@@ -4,7 +4,7 @@ This module implements the base driver for the [AgileX LIMO](https://global.agil
 
 ## Build and Run
 
-To use this module, follow these instructions to [add a module from the Viam Registry](https://docs.viam.com/modular-resources/configure/#add-a-module-from-the-viam-registry) and select the `viam:base:agilex-limo` model from the [`agilex-limo` module](https://app.viam.com/module/viam/agilex-limo).
+To use this module, follow the instructions to [add a module from the Viam Registry](https://docs.viam.com/registry/configure/#add-a-modular-resource-from-the-viam-registry) and select the `viam:base:agilex-limo` model from the [`agilex-limo` module](https://app.viam.com/module/viam/agilex-limo).
 
 ## Configure your AgileX LIMO base
 
