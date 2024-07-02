@@ -2,17 +2,15 @@
 
 This module implements the [`rdk:component:base` API](https://docs.viam.com/components/base/#api) in an `agilex` model for the [AgileX LIMO](https://global.agilex.ai/education/4) base to be used with [`viam-server`](https://docs.viam.com/). This driver supports differential, ackermann, and omni directional steering modes over the serial port.
 
-> [!NOTE]
-> For more information, see [Modular Resources](https://docs.viam.com/registry/#modular-resources).
-
 ## Configure your `agilex-limo` base
 
-> [!NOTE]  
-> Before configuring your base, you must [create a machine](https://docs.viam.com/fleet/machines/#add-a-new-machine).
+> [!NOTE]
+> Before configuring your base, you must [create a machine](https://docs.viam.com/cloud/machines/#add-a-new-machine).
 
-Navigate to the **Config** tab of your machine's page in [the Viam app](https://app.viam.com/). Click on the **Components** subtab and click **Create component**. Select the `base` type, then search for and select the `agilex-limo` model. Enter a name for your base and click **Create**.
+Navigate to the **CONFIGURE** tab of your machine’s page in [the Viam app](https://app.viam.com/).
+[Add `base` / `agilex-limo` to your machine](https://docs.viam.com/build/configure/#components).
 
-On the new component panel, copy and paste the following attribute template into your base’s **Attributes** box:
+On the new component panel, copy and paste the following attribute template into your base’s attributes field:
 
 ```json
 {
@@ -21,7 +19,7 @@ On the new component panel, copy and paste the following attribute template into
 }
 ```
 
-> [!NOTE]  
+> [!NOTE]
 > For more information, see [Configure a Machine](https://docs.viam.com/build/configure/).
 
 ### Attributes
@@ -50,8 +48,8 @@ The following attributes are available for `viam:base:agilex-limo` bases:
 
 ## Next steps
 
-- To test your base, go to the [**Control** tab](https://docs.viam.com/fleet/machines/#control).
-- To write code against your base, use one of the [available SDKs](https://docs.viam.com/program/).
+- To test your base, go to the [**CONTROL** tab](https://docs.viam.com/fleet/control/).
+- To write code against your base, use one of the [available SDKs](https://docs.viam.com/build/program/).
 - To view examples using a base component, explore [these tutorials](https://docs.viam.com/tutorials/).
 
 ## Local development
@@ -60,7 +58,6 @@ This module is written in Go.
 
 To build: `make limobase`<br>
 To test: `make test`
-
 
 ## License
 Copyright 2021-2023 Viam Inc. <br>
