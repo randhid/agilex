@@ -1,12 +1,12 @@
 {
-  "module_id": "viam:agilex-limo",
+  "module_id": "rand:agilex-limo",
   "visibility": "public",
   "url": "https://github.com/viam-labs/agilex/",
   "description": "Driver for the AgileX LIMO base.",
   "models": [
     {
       "api": "rdk:component:base",
-      "model": "viam:base:agilex-limo"
+      "model": "rand:base:agilex-limo"
     }
   ],
   "entrypoint": "limobase"
